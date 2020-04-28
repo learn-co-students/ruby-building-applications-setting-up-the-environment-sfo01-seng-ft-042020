@@ -6,8 +6,8 @@ class Garden
   end
 
   def plants
-    Plant.all.select do |plant|
-      plant.garden == self
+    Plant.all.select do |palant|
+      palant.garden == self
     end
   end
 end
